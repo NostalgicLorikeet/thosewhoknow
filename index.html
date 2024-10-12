@@ -32,5 +32,11 @@
 	<script src="run.js"></script>
 	<script>
 		run();
+		
+		const rhymes = ["JOE","BLOW","GLOW","GO","NO","GROW","SHOW","HOE","BOW","TOE","SNOW"];
+		
+		if (getRandomInt(0,100) == 98) {
+			document.getElementById("title").innerHTML = "THOSE WHO " + rhymes[getRandomInt(0,rhymes.length)] + "💀";
+		}
 	</script>
 </html>
