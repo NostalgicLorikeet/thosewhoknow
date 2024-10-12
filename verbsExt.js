@@ -1,4 +1,4 @@
-const verbsext = ["abearing",
+const verbsExt = ["abearing",
 "abhorring",
 "abiding",
 "absorbing",
