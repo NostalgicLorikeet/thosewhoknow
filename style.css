@@ -73,4 +73,16 @@ footer {
 	margin: auto;
 	width: fit-content;
     bottom: 0;
+	display: flex;
+	.footerLink {
+		margin-left: 75px;
+		margin-right: 75px;
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
 }
