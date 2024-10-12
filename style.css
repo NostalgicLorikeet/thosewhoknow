@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'TikTok Text';
+	src: url('TikTokText-Bold.woff2') format('woff2'),
+		 url('TikTokText-Bold.ttf') format('truetype'),
+		 url('TikTokText-Bold.woff') format('woff');
+	font-style: normal;
+	font-display: swap;
+}
+* {
+	margin: 0px;
+    font-family: 'TikTok Text';
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+	background: url("those_who_know.png");
+	background-size: cover;
+}
+.caption {
+	border-radius: 12px;
+	background: #FFFFFF;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+#title {
+	font-size: 60px;
+	padding: 8px;
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+#caption {
+	margin: auto;
+	width: 50%;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	a {
+		color: white;
+		font-size: 15px;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+#gen {
+	font-size: 40px;
+	padding: 8px;
+	width: fit-content;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+#caption2 {
+	margin: auto;
+	width: 50%;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	margin-bottom: 200px;
+}
+footer {
+	font-size: 10px;
+	color: white;
+	margin: auto;
+	width: fit-content;
+    bottom: 0;
+}
