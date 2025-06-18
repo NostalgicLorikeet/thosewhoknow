@@ -1911,4 +1911,5 @@ const demonyms = ["Abderian",
 "Raroian",
 "Sheboyganite",
 "Winnetkan",
-"Gaboronian"]
+"Gaboronian",
+"Joe Biden"]
